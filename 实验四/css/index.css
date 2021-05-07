@@ -1,0 +1,363 @@
+@charset "UTF-8";
+
+body {
+    text-align: center;
+    /* background-image: url('../img/bg.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; */
+    margin:0; 
+}
+
+#Box {
+    left: -34px;
+    bottom: 0px;
+    height: 737px;
+    width: 502px;
+    margin-left:530px;
+    text-align: inherit;
+    border-style: solid;
+    border-color: #f4f4f4;
+    border-width: 12px;
+    position: relative;;
+}
+
+#Box #Record {
+    left:2px;
+    top:16.5px;
+    position: relative;
+    margin: auto;
+}
+#Box #Record #Num {
+    font-family: tahoma, arial, 'Hiragino Sans GB', 宋体, sans-serif;
+    font-weight: 1000;
+    left:23px;
+    letter-spacing: 46px;
+    font-size: 23.7px;
+    color: #F40;
+    position: relative;
+    margin: auto;  
+}
+#Box #Record #Item {
+    color: #333333;
+    font-weight: 500;
+    margin-left: 2px;
+    word-spacing: 41px;
+    letter-spacing: 1.7px;
+    font-size: 20px; 
+}
+
+#Box #inform {
+    background-color: #ffe5de;
+    top: 43px;
+    height: 44px;
+    position: relative;
+    margin: auto;
+}
+
+#Box #inform #text {
+    top: 8.9px;
+    left: 5px;
+    color: #ce421f;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 19px; 
+    position: relative;
+}
+
+#Box #inform #triangle {
+    top: 9px;
+    left: 48px;
+    height: 20px;
+    font-size: 19px;
+    color: #f8471e;
+    position: relative;
+}
+
+#Box #bar {
+    top: 72px;
+    left: -4px;
+    width:486px;
+    height: 25px;
+    font-size: 20px;
+    word-spacing: 46.75px;
+    color: #3c3c3c;
+    position: relative;
+    margin: auto;
+}
+
+#Box #bar #forum {
+    font-weight: 600;
+}
+
+#Box #bar hr {
+    top: -6px;
+    left: 1px;
+    background-color: #F40;
+    width: 54px;
+    height: 3.3px;
+    border: 0;
+    position: relative;
+}
+
+#Box #Ad {
+    font-family: tahoma, arial, 'Hiragino Sans GB', 宋体, sans-serif;
+    font-weight: 500;
+    color: #ff8d63;
+    top: 107px;
+    left: -35px;
+    width:486px;
+    height: 25px;
+    font-size: 21px;
+    word-spacing: 45px;
+    position: relative;
+    margin: auto;
+}
+
+#Box #Ad #second_line{
+    top: 18px;
+    color: #3c3c3c;
+    letter-spacing: 0.05px;
+    word-spacing: 71px;
+    position: relative;
+}
+
+#Box #icon {
+    top: 180px;
+    height: 135px;
+    width: 502px;
+    text-align: left;
+    position: relative;
+    float: left;
+}
+
+#Box #icon #phone {
+    margin:0;
+    height: 128px;
+    width: 120px;
+    border:2.5px;
+    border-bottom: 3px;
+    border-style: solid;
+    border-color: #F40;
+    border-bottom-color:white;
+    z-index: 1;
+    background-size: 35px 46px; 
+    background-image: url('../img/phone.png');
+    background-repeat: no-repeat;
+    background-position: 51% 23%;
+    float: left;
+    position: relative;
+}
+
+#Box #icon #phone #text {
+    top:78px;
+    left:28px;
+    font-family: tahoma, arial, 'Hiragino Sans GB', 宋体, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    color: #ff8d63;
+    letter-spacing: -1px;
+    position: relative;
+}
+
+#Box #icon #pig {
+    margin:0;
+    height: 129px;
+    width: 123px;
+    border-top:2px;
+    border-right: 2px;
+    border-left: 0;
+    border-bottom: 2.5px;
+    border-style: solid;
+    border-color: #f4f4f4;
+    border-bottom-color:#F40;
+    background-size: 47px 42px; 
+    background-image: url('../img/pig.png');
+    background-repeat: no-repeat;
+    background-position: 51% 28%;
+    float: left;
+    position: relative;
+}
+
+#Box #icon #pig #text {
+    top:78px;
+    left:42px;
+    font-family: tahoma, arial, 'Hiragino Sans GB', 宋体, sans-serif;
+    font-size: 21px;
+    color: #3c3c3c;
+    position: relative;
+}
+
+#Box #icon #car {
+    margin:0;
+    height: 129px;
+    width: 123px;
+    border-top:2px;
+    border-right: 2px;
+    border-left: 0;
+    border-bottom: 2.5px;
+    border-style: solid;
+    border-color: #f4f4f4;
+    border-bottom-color:#F40;
+    background-size: 44px 39px; 
+    background-image: url('../img/car.png');
+    background-repeat: no-repeat;
+    background-position: 52% 26%;
+    float: left;
+    position: relative;
+}
+
+#Box #icon #car #text {
+    top:78px;
+    left:42px;
+    font-family: tahoma, arial, 'Hiragino Sans GB', 宋体, sans-serif;
+    font-size: 21px;
+    color: #3c3c3c;
+    position: relative;
+}
+
+#Box #icon #game {
+    margin:0;
+    height: 129px;
+    width: 125px;
+    border-top:2px;
+    border-right: 2px;
+    border-left: 0;
+    border-bottom: 2.5px;
+    border-style: solid;
+    border-color: #f4f4f4;
+    border-bottom-color:#F40;
+    background-size: 44px 39px; 
+    background-image: url('../img/game.png');
+    background-repeat: no-repeat;
+    background-position: 52% 26%;
+    float: left;
+    position: relative;
+}
+
+#Box #icon #game #text {
+    top:77.5px;
+    left:43px;
+    font-family: tahoma, arial, 'Hiragino Sans GB', 宋体, sans-serif;
+    font-size: 21px;
+    color: #3c3c3c;
+    position: relative;
+}
+
+#Box #charge {
+    top: 311px;
+    height: 272px;
+    width: 497px;
+    position: relative;
+    border:2.5px;
+    border-style: solid;
+    border-color: #F40;
+    text-align: left;
+}
+
+#Box #charge #choose {
+    top: -115px;
+    left: 42px;
+    font-family: tahoma, arial, 'Hiragino Sans GB', 宋体, sans-serif;
+    font-size: 21px;
+    word-spacing: 33px;
+    letter-spacing: 0.1px;
+    color: #666;
+    position: relative;
+    text-align: left;
+}
+
+#Box #charge #choose #first {
+    color: #ff8d63;
+}
+
+#Box #charge #choose #cancel {
+    position: relative;
+    top: -10px;
+    left: 18px;
+    font-size: 21px;
+}
+
+#Box #charge #input {
+    height: 90px;
+    position: relative;
+    top: -99px;
+}
+
+#Box #charge #input #phonenumber {
+    height: 40px;
+    width: 324px;
+    left: 26px;
+    border:2px;
+    border-bottom: 1.25px;
+    border-style: solid;
+    border-color: rgb(133, 133, 133);
+    position: relative;
+}
+
+#Box #charge #input #phonenumber #text {
+    position: relative;
+    font-family: tahoma, arial, 'Hiragino Sans GB', 宋体, sans-serif;
+    font-size: 21px;
+    color: #666;
+    top: 8px;
+    left: 7px;
+
+}
+
+#Box #charge #input #money {
+    height: 40px;
+    width: 324px;
+    left: 26px;
+    border:2px;
+    border-top: 1px;
+    border-style: solid;
+    border-color: rgb(133, 133, 133);
+    position: relative;
+}
+
+#Box #charge #input #money #text {
+    position: relative;
+    font-family: tahoma, arial, 'Hiragino Sans GB', 宋体, sans-serif;
+    font-size: 21px;
+    color: #3c3c3c;
+    top: 10px;
+    left: 7px;
+}
+
+#Box #charge #price {
+    position: relative;
+    top: -89px;
+    left: 32px;
+    font-size: 20px;
+    color: #666;
+}
+
+#Box #charge #price #num {
+    position: relative;
+    left: -2px;
+    font-family: verdana,arial;;
+    letter-spacing: 1px;
+    font-size: 19px;
+    color: #f60;
+    font-weight: bold;
+}
+
+#Box #button {
+    position: relative;
+    top: -77px;
+    left: 26px;
+    height: 47px;
+    width: 118px;
+    border-radius: 4px;
+    background-color: #F40;
+}
+
+#Box #button #text{
+    position: relative;
+    top: 9px;
+    left: 16px;
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+}

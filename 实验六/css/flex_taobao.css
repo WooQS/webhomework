@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+div, span {
+    display: flex;
+}
+
+.box {
+    margin: 0 auto;
+    width: 1150px;
+    height: 730px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    background-color: ghostwhite;
+}
+
+.item {
+    flex-direction: column;
+    width: 370px;
+    height: 352px;
+}
+
+.item img {
+    width: 370px;
+    height: 250px;
+}
+
+.item .info {
+    display: block;
+    width: 370px;
+    height: 110px;
+    background-color: white;
+}
+
+.item .info div {
+    align-items: center;
+    width: 350px;
+    margin: 10px;
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.item .info .name {
+    height: 20px;
+}
+
+.item .info .tag {
+    height: 20px;
+    color: #F72862;
+}
+
+.item .info .tag .gray{
+    margin-left: 5px;
+    color: gray;
+}
+
+.item .info .price {
+    justify-content: space-between;
+    height: 30px;
+}
+
+.item .info .price .number{
+    margin: 0;
+}
+
+.item .info .price .number .now{
+    align-self: baseline;
+    color: #F72862;
+    font-size: 27px;
+}
+
+.item .info .price .number .orign{
+    margin-left: 12px; 
+    align-self: baseline;
+    text-decoration: line-through;
+    color: gray;
+}
+
+.item .info .price .sales {
+    align-self: flex-end;
+    justify-content: flex-end;
+    margin: 0;
+    width: 2000px;
+    color: gray;
+    margin-right: 5px; 
+}
+
+.item .info .price .sales .num {
+    color: #F72862;
+}

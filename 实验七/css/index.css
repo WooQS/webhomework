@@ -1,0 +1,362 @@
+@charset "UTF-8";
+
+body {
+    padding: 20px;
+    width: 710px;
+}
+
+header .m-tl {
+    border-bottom: 4px solid #2589c2;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+header .m-tl .m-tab, .m-tip, .m-fun {
+    margin-bottom: 0;
+    margin-right: 5px;
+}
+
+header .m-tl .m-tab span {
+    background: #2589c2;
+    color: #fff;
+    padding: 4px 10px 1px 10px;
+    border-radius: 3px 3px 0 0;
+    display: block;
+    text-align: center;
+}
+
+header .m-tl .m-tip span {
+    background: #f76f49;
+    color: #fff;
+    padding: 2px 4px;
+    font-size: 12px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+header .m-fun {
+    text-align: center;
+    height: 18px;
+    border:1px gray solid;
+    background-color: #f2f2f2;
+    border-radius: 3px;
+    color: #004b9b;
+}
+
+header .m-fun img {
+    height: 10px;
+}
+
+header .info {
+    width: 99.8%;
+    height: 60px;
+    background-color: #f2f2f0;
+    border:1px gray solid;
+    border-width: 0 1px 0 1px;
+    margin: 0;
+}
+
+header .info span {
+    margin: 5px 0 5px 5px;
+    font-size: 13px;
+    
+}
+
+header .info .red {
+    font-weight: bold;
+    color: red;
+}
+
+header .info #big {
+    font-size: 15px;
+    margin-bottom: 0; 
+}
+
+header .print {
+    width: 16.7%;
+    background-color: #fffbe0;
+    border:1px gray solid;
+    padding-left: 590px;
+}
+
+header .print img {
+    height: 12px;
+}
+
+header .print span {
+    text-decoration: underline;
+    color: #004b9b;
+}
+
+section .head{
+    height: 10px;
+}
+
+section .head span {
+    text-align: center;
+    background-color: #cfdce8;
+    margin: 0 1px 1px 0;
+    color: #6e9eb5;
+}
+
+section .head .long{
+    width: 425px;
+}
+
+section .first-station {
+    width: 87%;
+    height: 33px;
+    background-color: #f2f2f2;
+    border:1px gray solid;
+    border-top-width: 0;
+    padding-left: 90px;
+    margin: 0;
+}
+
+section .first-station img {
+    margin-top: 8px; 
+    height: 15px;
+}
+
+section .first-station span {
+    display: inline-block;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+section .first-station .time {
+    margin-top: 6px;
+    font-size: 12px;
+    text-decoration: underline;
+    color: #004b9b;
+}
+
+section .info-first {
+    margin: 0;
+}
+
+section .info-first span {
+    margin: 0;
+    height: 35px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border-left: 1px gray solid;
+}
+
+section .info-first .long {
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    width: 425px;
+    border-left-width: 0;
+}
+
+section .info-first .long span {
+    font-size: 10px;
+    text-align: center;
+    border-left-width: 0;
+    position: relative;
+    top: -20px;
+    color: #996600;
+}
+
+section .info-first .long .time {
+    top: -10px;
+    width: 115px;
+    float: left;
+    color: black;
+}
+
+section .info-first .long img {
+    height: 50px;
+}
+
+section .info-first .long .bus {
+    height: 20px;
+    position: relative;
+    top: -15px;
+}
+
+section .info-first .long .name {
+    padding-left: 10px;
+    top: -28px;
+    width: 40px;
+    color: #004b9b;
+}
+
+section .info-first .long .name2 {
+    left: -188px;
+    top: -9px;
+    width: 40px;
+    color: #004b9b;
+}
+
+section .second-station {
+    width: 94%;
+    height: 45px;
+    background-color: #f2f2f2;
+    border:1px gray solid;
+    padding-left: 40px;
+    margin: 0;
+}
+
+section .second-station .time {
+    position: relative;
+    top: -3px;
+    font-size: 12px;
+}
+
+section .second-station img {
+    margin-left: 34px; 
+    margin-top: 13px; 
+    height: 15px;
+}
+
+section .second-station span {
+    display: inline-block;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+section .second-station .locate {
+    position: relative;
+    left: -6px;
+    top: 12px;
+    margin-right: 28px;
+    font-size: 12px;
+}
+
+section .second-station .under {
+    margin-top: 3px;
+    font-size: 12px;
+    text-decoration: underline;
+    color: #004b9b;
+}
+
+section .second-station #second {
+    position: relative;
+    left: 60px;
+}
+
+section .info-second {
+    margin: 0;
+}
+
+section .info-second span {
+    margin: 0;
+    height: 35px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border-left: 1px gray solid;
+}
+
+section .info-second .long {
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    width: 425px;
+    border-left-width: 0;
+}
+
+section .info-second .long span {
+    font-size: 10px;
+    text-align: center;
+    border-left-width: 0;
+    position: relative;
+    top: -20px;
+    color: #0099ff;
+}
+
+section .info-second .long .time {
+    top: -10px;
+    width: 115px;
+    float: left;
+    color: black;
+}
+
+section .info-second .long img {
+    height: 50px;
+}
+
+section .info-second .long .bus {
+    height: 20px;
+    position: relative;
+    top: -15px;
+}
+
+section .info-second .long .name {
+    padding-left: 10px;
+    top: -28px;
+    width: 40px;
+    color: #004b9b;
+}
+
+section .info-second .long .name2 {
+    border-radius: 3px;
+    width: 50px;
+    padding: 0 5px 0 5px; 
+    height: 10px;
+    left: -128px;
+    top: -9px;
+    width: 40px;
+    background-color: #1959a3;
+    color: white;
+}
+
+section .info-second .price {
+    padding-top: 9px;
+    font-size: 12px;
+}
+
+section .info-second .km {
+    padding-top: 15px;
+    font-size: 12px;
+}
+
+section .third-station {
+    width: 88%;
+    height: 45px;
+    background-color: #f2f2f2;
+    border:1px gray solid;
+    padding-left: 84px;
+    margin: 0;
+}
+section .third-station .name {
+    margin-right: 8px;
+}
+
+section .third-station .time {
+    position: relative;
+    top: -3px;
+    font-size: 12px;
+}
+
+section .third-station img {
+    margin-top: 13px; 
+    height: 15px;
+}
+
+section .third-station span {
+    display: inline-block;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+section .third-station .locate {
+    position: relative;
+    left: -6px;
+    top: 12px;
+    margin-right: 60px;
+    font-size: 12px;
+}
+
+section .third-station .under {
+    margin-top: 3px;
+    font-size: 12px;
+    text-decoration: underline;
+    color: #004b9b;
+}

@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div, span {
+    display: flex;
+}
+
+.box1 {
+    width: 1000px;
+    height: 800px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: limegreen;
+}
+
+.head {
+    width: 760px;
+    height: 120px;
+    border: 20px solid lightblue;
+    border-bottom-width: 10px;
+}
+
+.head span {
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    background-color: lightblue;
+}
+
+.head .right {
+    margin-left: 180px; 
+}
+
+.main {
+    width: 760px;
+    height: 420px;
+    border: 20px solid lightblue;
+    border-top-width: 10px;
+}
+
+.main .left {
+    flex-direction: column;
+    align-items: center;
+    width: 240px;
+    height: 420px;
+}
+
+.main .left .top {
+    width: 200px;
+    height: 300px;
+    margin: 20px 0 20px 0;
+    background-color: lightblue;
+}
+
+.main .left .bottom {
+    justify-content: space-between;
+    width: 200px;
+}
+
+.main .left .bottom span {
+    width: 50px;
+    height: 50px;
+    background-color: lightblue;
+}
+
+.main .right {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 520px;
+    height: 370px;
+    margin-top: 20px;
+}
+
+.main .right span {
+    width: 480px;
+    height: 40px;
+    background-color: lightblue;
+}
+
+.box2 {
+    width: 430px;
+    height: 570px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: limegreen;
+}
+
+.item {
+    flex-direction: column;
+    width: 390px;
+    height: 370px;
+}
+
+.item .img {
+    width: 390px;
+    height: 260px;
+    background-color: moccasin;
+}
+
+.item .info {
+    display: block;
+    width: 390px;
+    height: 110px;
+    background-color: pink;
+}
+
+.item .info div {
+    align-items: center;
+    width: 370px;
+    margin: 10px;
+    background-color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.item .info .name {
+    height: 20px;
+}
+
+.item .info .tag {
+    height: 20px;
+    color: #F72862;
+}
+
+.item .info .price {
+    justify-content: space-between;
+    height: 30px;
+}
+
+.item .info .price .number{
+    margin: 0;
+}
+
+.item .info .price .number .now{
+    color: #F72862;
+    font-size: 22px;
+}
+
+.item .info .price .number .orign{
+    margin-left: 12px; 
+    align-self: flex-end;
+    text-decoration: line-through;
+    color: gray;
+}
+
+.item .info .price .sales {
+    align-self: flex-end;
+    justify-content: flex-end;
+    margin: 0;
+    width: 100px;
+    color: gray;
+    margin-right: 5px; 
+}

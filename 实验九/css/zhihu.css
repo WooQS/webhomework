@@ -1,0 +1,329 @@
+@charset "UTF-8";
+
+body {
+	width: 1041px;
+}
+
+.exa {
+	position: absolute;
+	opacity: 0.5;
+}
+
+.head {
+	background-color: rgb(0,141,239);
+    height: 9.5%;
+}
+
+.head .nav {
+	width: 37%;
+	font-size: 13px;
+	margin-top: 35px;
+	margin-left: 53px;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+}
+
+.head .search #home {
+	margin-top: -6px;
+	border-radius: 3px;
+	padding: 6 8px;
+	background-color: rgb(0,105,180);
+}
+
+.head .search {
+	float: right;
+	position: absolute;
+	top: 5px;
+	left: 873px;
+}
+
+.head .search .account {
+	font-size: 13px;
+	color: white;
+	margin-bottom: 8px;
+}
+
+.head .search .text{
+	margin-left: -135px;
+	background-color: white;
+	border-width: 10px 1px 10px 1px;
+	border-radius: 1px;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	font-size: 12px;
+}
+
+.big {
+	float: left;
+	background-color: gray;
+	margin: 20px 10px 0 73px;
+	height: 226px;
+	width: 568px;
+}
+
+.data {
+	float: right;
+	height: 226px;
+	width: 277px;
+	background-color: #f2f2f2;
+	margin: 20px 106px 0 0;
+	padding: 27px 21px 19px 23px;
+	text-align: center;
+}
+
+.data .button {
+	background-color: rgb(0,158,255);
+	margin: 20px 0 0 50px;
+	height: 34px;
+	width: 127px;
+	margin: 23px 0 40px 52px;
+	border-radius: 3px;
+}
+
+.data .num {
+	border-top: 1px dashed gray;
+	display: flex; 
+	padding: 26px 0 0 12px;
+	flex-wrap: wrap;
+}
+
+.data .num .item {
+	width: 105px;
+	color: rgb(60,138,210);
+}
+
+.data .num .item span{
+	color: gray;
+}
+
+.middle {
+	line-height: 57px;
+	font-size: 15px;
+	margin: 70px;
+	margin-bottom: -10px;
+}
+
+.middle .x{
+	margin-right: 537px;
+}
+.middle .more{
+	margin-left: 190px;
+	font-size: 13px;
+}
+
+.left {
+	margin-left: 73px;
+	width: 54.5%;
+	height: 1059px;
+	border: 0.5px solid gray;
+}
+
+.left .first {
+	height: 16%;
+}
+
+.left .second {
+	height: 16.3%;
+}
+
+.left .third {
+	height: 22%;
+}
+.left .fourth {
+	height: 16.2%;
+}
+.left .fifth {
+	height: 16.2%;
+}
+.left .sixth {
+	height: 13.5%;
+}
+
+.left .text {
+	padding: 18px 19px 8px 8px;
+	height: 100%;
+	border: 0.5px solid gray;
+}
+
+.left .item {
+	padding: 18px 18px 8px 16px;
+	height: 100%;
+	border: 0.5px solid gray;
+}
+
+.left .item .ppt{
+	margin-top: 6px;
+	height: 9%;
+	line-height: 9px;
+	font-weight: bold;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	background-color: rgb(255,120,54);
+	border: 0.5px solid rgb(255,93,34);
+	border-radius: 3px;
+	width: 20%;
+}
+
+.left .third .item .ftext{
+	margin-top: 10px;
+}
+
+.left .item .square {
+	width: 100%;
+	height: 60%;
+	background-color: gray;
+}
+
+.left .num {
+	font-size: 13px;
+	position: relative;
+	color: gray;
+}
+
+.left .first .num {
+	bottom: -20px;
+}
+
+.left .third .num {
+	bottom: -30px;
+}
+
+.left .fourth .num {
+	bottom: -20px;
+}
+
+.left .fourth .square::after{
+	content:"";
+	display: inline-block;
+	background-image: url(/img/play.png);
+	background-size:contain;
+	background-repeat: no-repeat;
+	margin-top: 60px;
+	width:20px;
+	height:20px;
+}
+
+.left .stext{
+	margin-top: 6px;
+	color: gray;
+}
+
+.left .fifth .square {
+	width: 150px;
+	margin-right: 25px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+.left .fifth .num {
+	float: right;
+}
+
+.left .sixth .num {
+	float: right;
+}
+
+.right {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 363px;
+	left: 660px;
+	width: 274px;
+	height: 650px;
+	justify-content: space-between;
+}
+
+.right .item {
+	border: 1px solid gray;
+	border-bottom: 4px solid rgb(0,146,242);
+	width: 100%;
+	height: 215px;
+	overflow: hidden;
+}
+
+.right .final {
+	border: 1px solid gray;
+	width: 100%;
+	height: 189px;
+}
+
+.right .item .tag{
+	text-align: center;
+	transform:rotate(45deg);
+	color: white;
+	font-size: 12px;
+	background-color: rgb(0,146,242);
+	margin-top: 15px;
+	width: 200px;
+	margin-left: 140px;
+}
+
+.right .item .square {
+	margin-top: -18px;
+	margin-left: 15px;
+	width: 245px;
+	height: 90px;
+	background-color: gray;
+}
+
+.right .item div {
+	color: gray;
+	margin: 5px 0 0 12px;
+	font-size: 13px;
+}
+
+.right .item .ftext {
+	font-weight: bold;
+	color: #333333;
+	font-size: 15px;
+	margin: 7px 0 0 12px;
+}
+
+.right .item .num {
+	font-size: 14px;
+}
+
+.right .final{
+	padding: 17px 11px 32px 13px;
+}
+
+.right .final .ftext {
+	float: left;
+	font-size: 16px;
+}
+
+.right .final .stext {
+	font-size: 16px;
+	float: left;
+	color: rgb(0,146,242);
+}
+
+.right .final .more {
+	float: right;
+	font-size: 13px;
+}
+
+.right .final .main {
+	margin-top: 27px;
+	border-top: 1px dashed gray;
+}
+
+.right .final .main .square {
+	margin-top: 18px;
+	margin-left: 47px;
+	width: 153px;
+	height: 66px;
+	background-color: gray;
+}
+
+.right .final .main .num {
+	margin-left: 47px;
+	width: 153px;
+	padding: 5px;
+	color: white;
+	background-color: rgb(25,23,23);
+	text-align: center;
+}
