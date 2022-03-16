@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="css/test3.css" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.bootcss.com/moment.js/2.24.0/moment-with-locales.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="js/test3.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+
+<body>
+    <!--注册 -->
+    <div class="container" style="background-color: #eee;padding-bottom: 50px;border-radius: 25px;">
+        <!-- 步骤条 -->
+        <div class="steps container">
+            <div class="step-line step-completed1"></div>
+
+            <div class="step step-completed1">
+                <div class="step-text">1</div>
+                <div class="step-main">邮箱验证</div>
+            </div>
+
+            <div class="step-line step-completed1"></div>
+            <div class="step-line step-completed2"></div>
+
+            <div class="step step-completed2">
+                <div class="step-text">2</div>
+                <div class="step-main">填写信息</div>
+            </div>
+
+            <div class="step-line step-completed2"></div>
+            <div class="step-line step-completed3"></div>
+
+            <div class="step step-completed3">
+                <div class="step-text">3</div>
+                <div class="step-main">确认注册</div>
+            </div>
+            <div class="step-line step-completed3"></div>
+        </div>
+        <!-- 步骤一组件 -->
+        <div id="step1">
+            <h2>注册</h2>
+            <!-- 输入邮箱号 -->
+            <div class="row inputemail">
+                <div class='col-md-3'></div>
+                <div class='col-md-6'>
+                    <input type="text" class="form-control" style="height: 50px;" aria-label="..." placeholder="请输入邮箱号"
+                        id="inputEmailAddress">
+                </div>
+                <div class='col-md-3'></div>
+            </div>
+            <!-- 验证码 -->
+            <div class="row inputcode">
+                <div class='col-md-3'></div>
+                <div class='col-md-6'>
+                    <div class="input-group">
+                        <input type="text" class="form-control" aria-label="..." placeholder="请输入验证码"
+                            style="height: 50px;" id="inputCodeNumber">
+                        <div class="input-group-btn">
+                            <button type="button" class="btn btn-md getcode" id="getcode">点击获取验证码</button>
+                        </div>
+                    </div><!-- /input-group -->
+                </div>
+                <div class='col-md-3'></div>
+            </div>
+            <!-- 下一步 -->
+            <button type="button" class="btn btn-md nextstep" id='nextStepButton1'>下一步</button>
+        </div><!-- 步骤一组件 -->
+
+        <!-- 步骤二组件 -->
+        <div id="step2" style="display: none;">
+            <!-- <div id="step2"> -->
+            <h2 id="title23">请填写相关信息</h2>
+            <form class="form-horizontal" role="form">
+                <!-- 用户名 -->
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">用户名</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" id="userName" type="text" value="" placeholder="用户名要求为3-10个字符"
+                            maxlength="10" minlength="3">
+                    </div>
+                </div>
+                <!-- 密码 -->
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">密码</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" id="inputPassword1" type="password"
+                            placeholder="密码要求为6-10位的数字、字母或下划线组合">
+                    </div>
+                </div>
+                <!-- 确认密码 -->
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">确认</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" id="inputPassword2" type="password" placeholder="再次输入密码">
+                    </div>
+                </div>
+                <!-- 生日 -->
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">生日</label>
+                    <div class="col-sm-10">
+                        <div class='input-group date' id='datetimepicker'>
+                            <input type='text' class="form-control" id="inputBirthday" />
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-calendar"></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <!-- 地址 -->
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">地址</label>
+                    <div class="col-sm-10">
+                        <textarea class="form-control" id='inputAddress' placeholder="地址"
+                            style="resize: none;"></textarea>
+                    </div>
+                </div>
+                <!-- 班级 -->
+                <div class="form-group">
+                    <label for="disabledSelect" class="col-sm-2 control-label">班级</label>
+                    <div class="col-sm-10">
+                        <select class="form-control" id="inputClass">
+                            <option value='计算机191' label='计算机191'></option>
+                            <option value='计算机192' label='计算机192'></option>
+                            <option value='计算机193' label='计算机193'></option>
+                            <option value='计算机194' label='计算机194'></option>
+                            <option value='计算机195' label='计算机195'></option>
+                            <option value='软工191' label='软工191'></option>
+                            <option value='软工192' label='软工192'></option>
+                            <option value='物联网191' label='物联网191'></option>
+                        </select>
+                    </div>
+                </div>
+                <div id="buttons2">
+                    <!-- <div id="buttons2" style="display: none;"> -->
+                    <button type="button" class="btn btn-md" id='nextStepButton2' style="width: 30%;">上一步</button>
+                    <button type="button" class="btn btn-md" id='nextStepButton3' style="width: 30%;">下一步</button>
+                </div>
+                <!-- <div id="buttons3"> -->
+                <div id="buttons3" style="display: none;">
+                    <button type="button" class="btn btn-md" id='nextStepButton4' style="width: 30%;">上一步</button>
+                    <button type="button" class="btn btn-md" id='nextStepButton5' style="width: 30%;">确认注册</button>
+                </div>
+            </form>
+        </div><!-- 步骤二三组件 -->
+    </div>
+</body>
+
+</html>

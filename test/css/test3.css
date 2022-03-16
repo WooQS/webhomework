@@ -1,0 +1,149 @@
+body {
+  margin-top: 80px;
+  background-color: #74c0ec;
+}
+
+/*按钮主题颜色*/
+.btn-lg,
+.btn-md,
+.btn-lg:hover,
+.btn-md:hover,
+.btn-lg:visited,
+.btn-md:visited,
+.btn-lg:active,
+.btn-md:active,
+.btn-lg:link,
+.btn-md:link,
+.btn-lg:focus,
+.btn-md:focus {
+  background-color: #59b2ee;
+  border-color: #89c3d1;
+  color: white;
+}
+
+/*注册表单*/
+.logon {
+  background-color: #eee;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.inputemail {
+  margin-bottom: 30px;
+}
+
+.inputcode {
+  margin-bottom: 40px;
+}
+
+.getcode {
+  height: 50px;
+}
+
+.nextstep {
+  height: 50px;
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.getcode {
+  width: 150px;
+}
+
+#buttons1,
+#buttons2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#nextStepButton2,
+#nextStepButton4 {
+  float: left;
+}
+
+#nextStepButton3,
+#nextStepButton5 {
+  float: right;
+}
+
+.steps {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  width: 100%;
+  position: relative;
+  left: 16%;
+}
+
+.step,
+.step-line {
+  float: left;
+}
+
+.step {
+  display: block;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  line-height: 17px;
+  text-align: center;
+  font-size: 15px;
+  background: #cdcdcd;
+}
+
+.step-line {
+  width: 10%;
+  position: relative;
+  top: 9px;
+  height: 5px;
+  background-color: #cdcdcd;
+}
+
+.step-text {
+  line-height: 21px;
+  color: #fff;
+}
+
+.step-circle {
+  margin: 4px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #bfcbd9;
+}
+
+.step-main {
+  font: 14px Helvetica Neue, Helvetica, PingFang SC, 微软雅黑, Tahoma, Arial, sans-serif;
+  padding: 8px 0;
+  display: block;
+  width: 80px;
+  text-align: center;
+  position: relative;
+  left: -34px;
+  color: #313131;
+}
+
+.steps>.step-completed1 {
+  background: #71b5b9;
+  border-color: #71b5b9;
+}
+
+.step-completed1>.step-circle,
+.step-completed2>.step-circle,
+.step-completed3>.step-circle {
+  background-color: #8ed6b5;
+}
+
+.step-completed1.step-line {
+  background-color: #71b5b9;
+}
+
+form {
+  position: relative;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
